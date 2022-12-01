@@ -15,5 +15,6 @@ namespace DataAccessLayer.Concrete
 
         }
         public DbSet<Customer>? Customers { get; set; }
+        public DbSet<PaymentLog>? PaymentLogs { get; set; }
     }
 }
